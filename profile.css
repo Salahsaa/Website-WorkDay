@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(225, 219, 219);
+}
+header{
+    background-color: #405d9b;
+    height: 49px;
+}
+header .h1{
+    color: white;
+    padding-top: 8px; 
+    padding-left: 300px;
+}
+header .search .text{
+    margin-left: 470px;
+    position: relative;
+    bottom: 30px;
+    width: 28%;
+    padding: 3px 1px;
+}
+header .search .imgs{
+      width: 1.4%;
+      height: 14px;
+      position: relative;
+      bottom: 27px;
+      right: 30px;
+}
+header .img{
+    width: 3.2%;
+    height: 43px;
+ position: relative;
+    bottom: 67px;
+    left: 1300px;
+}
+
+/*Section 1*/
+
+section .parent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    width: 90%;
+    height: 430px;
+    margin-left: 70px;
+}
+section .parent .child .img1{
+      width: 100%;
+      height: 387px;
+      margin-top: 110px;
+      position: relative;
+}
+ section .parent .child .img2{
+  position: relative;
+      width: 10%;
+      height: 100px;
+      border-radius: 50%;
+      bottom: 140px;
+      left: 530px;
+      border: 2px solid white;
+}
+section .parent .child1 .h2{
+       color: white;
+       position: relative;
+       bottom: 138px;
+       margin-left: 526px;
+} 
+section .parent .child2 ul{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 123px;
+    margin-left: 393px;
+}
+section .parent .child li{
+    display: flex;
+    flex-direction: row;
+    color: #405d9b;
+    margin:0px 17px;
+}
+
+/*Section 2*/
+
+
+section .DivPrt {
+    display: flex;
+    flex-direction: row;
+} 
+
+section .cld1{
+    background-color: white;
+    width: 18%;
+    margin-left:70px ;
+    margin-top: 30px;
+}
+section .cld1 .h1{
+    color:rgb(213, 179, 117) ;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+section .cld1 #hr{
+    margin-top: 6px;
+    width: 94%;
+    margin-left: 8px;
+}
+section .cld1 .divPcld{
+    display: flex;
+    flex-direction: row;
+}
+section .cld1 .divPcld .imgD{
+     width: 50px;
+     height: 50px;
+     margin-top: 10px;
+     margin-left: 20px;
+}
+section .cld1 .divPcld .DC{
+    display: flex;
+    flex-direction: column;
+}
+
+section .cld1 .divPcld .h2D{
+    color: #405d9b;
+    margin-left: 5px;
+    margin-top: 10px;
+    font-size:18px;
+    
+}
+section .cld1 .divPcld .pD{
+    color: #aba0a0;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+section .cld2{
+    width: 65%;
+    margin-left: 97px;
+    margin-top: 50px;
+}
+
+section .DivCld .c1{
+    height: 118px;
+    margin-bottom: 18px;
+}
+section .DivCld .c1 .txtC1{
+    width: 100%;
+    padding-bottom: 100px;
+    padding-top: 5px;
+    padding-left: 4px;
+    border: none;
+}
+section .DivCld .c1 .btnC1{
+    background-color: #405d9b;
+    margin-left: 808px;
+    position: relative;
+    bottom: 23px;
+    width: 58px;
+    border: none;
+    padding: 2px 4px;
+    color: white;
+    cursor: pointer;
+}
+section .DivCld .c1 .file{
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+}
+
+
+.divChldPart{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    margin-bottom: 18px;
+    background-color: white;
+}
+section .DivCld .c2{
+    display: flex;
+    flex-direction: row;
+   
+}
+section .DivCld .c2 .imgC2{
+    width: 80px;
+    height: 67px;
+    margin-top: 14px;
+    margin-left: 14px;
+}
+section .DivCld .c2 .dcld2{
+    display: flex;
+    flex-direction: column;
+}
+section .DivCld .c2 .dcld2 .h2C2{
+    color: #405d9b;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+section .DivCld .c2 .dcld2 .pC2{
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+section .DivPrt #hR{
+    margin-top:  20px;
+    width: 800px;
+    position: relative;
+    right: 36px;
+}
+
+/*add ami button*/
+.addAmi{
+    background-color: white;
+    color: black;
+    padding: 6px;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+

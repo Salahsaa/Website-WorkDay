@@ -1,0 +1,82 @@
+.CrSty{
+    background-color: white;
+    width: 60%;
+    height: 400px;
+    margin-left: 260px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 4px 6px rgb(0, 0,0.1) ;
+    border-radius: 20px;
+}
+.Cry{
+     
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+}
+.Cry .img1{
+      width: 30px;
+      height: 30px;
+      margin-top: 17px;
+      margin-left:17px;
+      cursor: pointer;
+}
+.Cry .img2{
+    width: 30px;
+    height: 30px;
+    margin-top: 17px;
+    margin-right:27px;
+    cursor: pointer;
+}
+.Cry .h1{
+    position: relative;
+    bottom: 10px;
+}
+/* .CrSty .url{
+    width: 150px;
+    margin-left: 325px;
+    margin-top: 400px;
+    cursor: pointer;
+} */
+.CrSty .btn{
+    margin-top: 20px;
+    background-color: black;
+    position: relative;
+    left: 340px;
+    top: 160px;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+table{
+    margin-left: 220px;
+}
+td label{
+    padding-right: 40px;
+    /* background-color: red; */
+    font-size: 18px;
+    font-weight: 800;
+}
+/* .nom{
+    position: relative;
+    top: 70px;
+    left: 200px;
+    
+}
+.commentaire{
+    position: relative;
+    top: 70px;
+    left: 207px;
+    
+} */
+
+
+/*
+hada kayhayad liya boeder mli kanberak 3la input hta nsali kolchy o ndiro lihom kmlin
+input:focus {
+    outline: none;
+} */

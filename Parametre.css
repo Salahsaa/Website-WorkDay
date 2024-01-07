@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(236, 234, 234);
+}
+.parent .haut{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: -22px;
+}
+.parent .haut img{
+    width: 20px;
+    height: 20px;
+}
+.parent .haut h1{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.parent .haut .hautimg{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.parent .haut .hautimg .S1{ 
+     background-color: rgb(212, 210, 210);
+     position: relative;
+     right: 20px;
+     top: 8px;
+     border-radius: 50%;
+     width: 30px;
+     height:30px;
+}
+.parent .haut .hautimg .S2{ 
+    background-color: rgb(212, 210, 210);
+    position: relative;
+    left: 17px;
+    bottom: 22px;
+    border-radius: 50%;
+    width: 30px;
+    height:30px;
+}
+.parent .haut .hautimg .img1{
+       position: relative;
+       bottom: 47px;
+       right: 15px;
+}
+.parent .haut .hautimg .img2{
+    position: relative;
+    bottom: 47px;
+    right: 2px;
+}
+.parent .ParPrfl{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.parent .ParPrfl img{
+    width: 42px;
+    height: 42px;
+    border-radius:50% ;
+    margin-left: 10px;
+}
+.parent .ProfTExt h2{
+    margin-left: 15px;
+    margin-top: -1px;
+    margin-bottom: 3px;
+}
+.parent .ProfTExt p{
+    margin-left: 15px;
+}
+.parent hr{
+    width: 98%;
+    margin-left: 13px;
+}
+
+.ParentCase{
+    display: flex;
+    flex-direction: row;
+}
+.ParCase{
+    
+    width: 70%;
+    margin-left: 410px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.ParCase .Case{
+    background-color: white;
+    width:28%;
+    height: 130px;
+    margin: 5px;
+    border-radius: 20px;
+}
+.ParCase .Case img{
+    width: 40px;
+    height: 40px;
+}
+.ParCase .Case .CaseImg{
+     margin-top: 16px;
+     margin-left: 13px;
+}
+.ParCase .Case h3{
+    margin-top: 9px;
+    margin-left: 13px;
+}
+
+/*partie 2 de deconnection*/
+.deconnection .img1{
+    width: 130%;
+    height: 300px;
+    position: relative;
+    top: 30px;
+    left: 100px;
+    border-top-left-radius:20px ;
+    border-top-right-radius: 20px;
+}
+.Deco{
+    background-color: white;
+    margin-left: 100px;
+    width: 130%;
+    height: 140px;
+    border-bottom-left-radius:8px ;
+    border-bottom-right-radius: 8px;
+}
+.dec1{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 10px;
+    top: 30px;
+    
+}
+.dec1 .imgDec1{
+    margin-top: 4px;
+    margin-left: 6px;
+    width: 20px;
+    height: 20px;
+}
+.dec1 h2{
+    margin-left: 16px;
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
+.dec2{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 10px;
+    top: 35px;
+}
+.dec2 .imgDec2{
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+    margin-left: 6px;
+}
+.dec2 h2{
+    margin-left: 13px;
+    margin-top: 6px;
+    font-size: 18.5px;
+}
+.Deco hr{
+    margin-top: 4px;
+} 
+
+
+.Deco .btn{
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+    top: 27.4px;
+    height: 25px;
+    border: none;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(202, 200, 200);
+}
+.btn1{
+    margin-top: 40px;
+    width: 100%;
+    height: 25px;
+    border: none;
+    cursor: pointer;
+    border-bottom-left-radius:8px ;
+    border-bottom-right-radius: 8px;
+    border-top: 1px solid rgb(202, 200, 200);
+}

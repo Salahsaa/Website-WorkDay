@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(225, 218, 218);
+}
+header{
+    background-color: rgb(12, 12, 161);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    
+}
+header h1{
+    color: white;
+    padding-top: 8px;
+    height: 53px;
+    margin-left: 16px;
+}
+header .btn{
+    margin-left: 20px;
+    background: none;
+    border: none;
+    background-color: green;
+    margin-top: 10px;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+section{
+    background-color: white;
+    width: 87%;
+    height: 260px;
+    margin-left: 90px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+section h2{
+    text-align: center;
+    position: relative;
+    bottom: 24px;
+    color: rgb(12, 12, 161);
+}
+section .text{
+    width: 28%;
+    margin-left: 420px;
+    margin-bottom: 8px;
+    padding: 6px 16px;
+}
+section .password{
+    width: 28%;
+    margin-left: 420px;
+    margin-bottom: 8px;
+    padding: 6px 16px;
+}
+section .login{
+    width: 28%;
+    margin-left: 420px;
+    margin-bottom: 8px;
+    padding: 6px 18px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+section .lien{
+    margin-left: 450px;
+}
+section .lien .a1{
+
+}
+section .lien .a2{
+     margin-left: 14px;
+}
